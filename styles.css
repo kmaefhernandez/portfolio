@@ -171,7 +171,7 @@ article hr {
     line-height:2;
 }
 .profile_image {
-    background: url('\grad_pic.png');
+    background: url('images/grad_pic.png');
     background-size: cover;
     background-position: center;
   }

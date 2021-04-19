@@ -190,5 +190,7 @@ article hr {
 footer {
     padding: 1%;
     text-align: right;
+    font-size: small;
+    text-transform: capitalize;
     clear: both;
 }

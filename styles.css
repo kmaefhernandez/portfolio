@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
     padding: 30px 8px;
 }
 header img {
@@ -22,13 +23,20 @@ header img:hover {
     box-shadow: 4px 4px 3px rgba(191, 235, 228, 0.95);
     transition: all ease-in 0.5s;
 }
+header h2 {
+    margin-right: auto;
+    padding: 0 2% 1% 2%;
+    font-weight: lighter;
+    font-size: larger;
+}
 #logo {
     margin-left: 6%;
 }
 nav {
-    padding: 1% 2%;
+    padding: 1% 1%;
     margin-right: 3%;
 }
+
 nav ul.nav_links {
     list-style: none;
     color: #444;

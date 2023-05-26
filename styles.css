@@ -205,3 +205,20 @@ footer {
     text-transform: capitalize;
     clear: both;
 }
+
+@media screen and (max-width: 900px) {
+    article div.project {
+        width: 100%;
+        padding: 1%;
+        margin-top: 2%;
+        height: 100%;
+    }
+
+    article div.project p {
+        font-size: small;
+    }
+
+    .name_header { 
+        display: none; 
+      } 
+  }
